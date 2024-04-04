@@ -9,7 +9,7 @@ const vechileSchema = new Schema({
             type: String,
             required: true
           },
-          VIN: {
+          vin: {
             type: String,
             required: true,
             unique: true
@@ -22,7 +22,7 @@ const vechileSchema = new Schema({
             type: String,
             required: true
           },
-          String: {
+          date: {
             type: String,
             required: true
           },
@@ -39,4 +39,4 @@ const vechileSchema = new Schema({
 
 const Vechile = mongoose.model('Vechile', vechileSchema)
 
-module.export = Vechile;
+export default Vechile;
