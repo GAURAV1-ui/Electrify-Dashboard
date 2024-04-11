@@ -22,11 +22,11 @@ const Products = () => {
   <div className="flex space-x-8 py-6">
     <div className="flex flex-col rounded-md border w-[400px] h-[150px] p-8 justify-center">
       <h2>Total Miles Driven</h2>
-      <p className="text-gray-500 mt-3">- {totalMiles} miles</p>
+      <p className="text-gray-500 mt-3">{totalMiles} miles</p>
     </div>
     <div className="flex flex-col rounded-md border w-[400px] h-[150px] p-8 justify-center">
       <h2>Filtered Miles Driven</h2>
-      <p className="text-gray-500 mt-3"> - {filteredMiles} miles</p>
+      <p className="text-gray-500 mt-3"> {filteredMiles} miles</p>
     </div>
   </div>
   <Table handleTotalMiles = {handleTotalMiles} handleFilteredMiles = {handleFilteredMiles}/>
