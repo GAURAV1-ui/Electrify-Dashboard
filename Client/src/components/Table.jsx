@@ -79,13 +79,13 @@ const Table = ({ handleTotalMiles, handleFilteredMiles }) => {
             <h1 className="mb-2 text-xl font-bold pl-4">Vehicles Data</h1>
             <div className='flex gap-2'>
             <button 
-              className='block sm-2 px-8 py-1 mr-4 rounded bg-[#FF8C8C] text-white hover:bg-[#fa7a7a]'
+              className='block sm-2 px-8 py-1 mr-4 rounded bg-[#50C878] text-white hover:bg-[#4ce07d]'
               onClick={clearHandler}
               >
               Clear
             </button>
             <button
-                className="block sm-2 px-2 py-1 mr-4 rounded bg-[#FF8C8C] text-white hover:bg-[#fa7a7a]"
+                className="block sm-2 px-2 py-1 mr-4 rounded bg-[#50C878] text-white hover:bg-[#4ce07d]"
                 onClick={() => setShowDateRangePicker(!showDateRangePicker)}
             >
                 {showDateRangePicker ? 'Close Date Filter' : 'Open Date Filter'}
@@ -94,7 +94,7 @@ const Table = ({ handleTotalMiles, handleFilteredMiles }) => {
             </div>
             <div className="overflow-x-auto rounded-lg bg-white p-4">
                 <table className="min-w-full border-collapse border border-gray-200">
-                    <thead className="bg-[#FF8C8C] text-white">
+                    <thead className="bg-[#50C878] text-white">
                         <tr>
                             <th className="border p-2">License Plate</th>
                             <th className="border p-2">Make</th>

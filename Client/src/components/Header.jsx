@@ -32,7 +32,7 @@ function Navbar() {
 
   <div
     onClick={() => setIsExpanded(!isExpanded)}
-    className="cursor-pointer absolute -right-3 top-10 rounded-full w-6 h-6 bg-[#FF8C8C] flex justify-center items-center"
+    className="cursor-pointer absolute -right-3 top-10 rounded-full w-6 h-6 bg-[#4ce07d] flex justify-center items-center"
   >
     <img src={RightArrowIcon} className="w-2" />
   </div>
@@ -41,7 +41,7 @@ function Navbar() {
   </div>
   <div className="flex flex-col space-y-8 mt-12">
     <div className="nav-links w-full">
-      <div className="flex space-x-3 w-full p-2 rounded bg-[#FF8C8C] text-white">
+      <div className="flex space-x-3 w-full p-2 rounded bg-[#4ce07d] text-white">
         <LayoutDashboard />
         <span className={!isExpanded ? "hidden" : "block"}>Dashboard</span>
       </div>
