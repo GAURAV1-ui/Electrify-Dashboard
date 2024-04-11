@@ -6,7 +6,7 @@ const Dashboard = () => {
   return (
     <>
     <div className='flex'>
-   <Header/>
+      <Header/>
     <main className='grow'>
         <Products/>
     </main>

@@ -36,7 +36,7 @@ function Navbar() {
   >
     <img src={RightArrowIcon} className="w-2" />
   </div>
-  <div className="logo-div flex space-x-4 items-center">
+  <div className="logo-div flex space-x-4 items-center text-xl font-bold">
     <span className={!isExpanded ? "hidden" : "block"}>Electrify</span>
   </div>
   <div className="flex flex-col space-y-8 mt-12">
