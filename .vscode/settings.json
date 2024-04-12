@@ -1,4 +1,4 @@
 {
-    "appService.defaultWebAppToDeploy": "",
+    "appService.defaultWebAppToDeploy": "/subscriptions/8e2ebd32-2772-4936-ad6c-d9b2ede2c7a7/resourceGroups/electrify-rg/providers/Microsoft.Web/sites/electrifffy",
     "appService.deploySubpath": "server"
 }

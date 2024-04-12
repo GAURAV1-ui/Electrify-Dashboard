@@ -17,10 +17,10 @@ app.use(express.urlencoded({extended:true, limit: "16kb"}))
 
 app.use(vechileRoutes);
 
-app.use(express.static("../../client/dist"))
-app.get("*", (req,res) => {
-    res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"))
-})
+// app.use(express.static("../../client/dist"))
+// app.get("*", (req,res) => {
+//     res.sendFile(path.resolve(__dirname, "client", "dist", "index.html"))
+// })
 
 connectDB()
 .then(()=> {

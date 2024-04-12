@@ -20,6 +20,7 @@ const Table = ({ handleTotalMiles, handleFilteredMiles }) => {
         try {
             axios.get('https://electrify-dashboard-2.onrender.com/getvechile').then((response) => {
                 setAllVechileData(response.data);
+                console.log(response.data);
                 setVechileData(response.data);
                 handleFilteredMiles(response.data);
                 handleTotalMiles(response.data);
