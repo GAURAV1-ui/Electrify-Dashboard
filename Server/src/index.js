@@ -17,6 +17,8 @@ app.use(express.urlencoded({extended:true, limit: "16kb"}))
 
 app.use(vechileRoutes);
 
+app.use(express.static("../Client/dis"))
+
 connectDB()
 .then(()=> {
     app.on("error", (error) => {
